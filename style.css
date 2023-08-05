@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 20px;
+}
+
+
+  
+.first {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid orange;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.left {
+  display: flex;
+  margin-left: 0;
+  gap: 12px;
+  /* background-color: orange; */
+}
+.right {
+  text-align: end;
+}
+#popular {
+  opacity: 0.6;
+}
+.second-large {
+  width: 100%;
+  border: 2px solid orange;
+  padding: 20px;
+}
+.second {
+  display: flex;
+  width: 100%;
+}
+.pair {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.pair p {
+  margin-top: 20px;
+  position: relative;
+  opacity: 0.5;
+  bottom: 0;
+  text-decoration: line-through;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  padding: 2px 8px;
+  font-size: 16px;
+}
+
+.topselection {
+  margin-top: 20px;
+}
+.bottomselection,
+.topselection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.total-seciton{
+    display: flex;
+    width: 100%;
+    /* background-color: orange; */
+    justify-content: space-between;
+    align-items: center;
+}
+.left-total{
+    padding: 10px;
+    opacity: 0.6s;
+}
+.right-total{
+    font-size: 20px;
+    padding: 10px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    font-size: 17px;
+    color: white;
+    border: none;
+
+}
