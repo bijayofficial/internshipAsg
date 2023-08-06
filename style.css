@@ -22,8 +22,32 @@ body {
   gap: 20px;
 }
 
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 21px;
+  width: 100%;
+}
 
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin: 10px 0;
+}
+
+.company-heading {
+  /* background-color: orange;  */
+  width: 80%;
+  font-size: 17.5px;
+  font-weight: bold;
+  text-align: center;
+}
   
+
+
 .first {
   display: flex;
   flex-direction: row;
@@ -80,7 +104,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-left: 17px;
+  margin-left: 15px;
 }
 
 label {
